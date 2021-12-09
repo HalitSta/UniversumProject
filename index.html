@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HalitSta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="overflow: hidden;">
+
+    
+
+    <!-- Nav menu at the top right-->
+
+
+    <div class="hero">
+        <nav class="navbar">
+            <div class="title"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+            <div class="ham">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <ul class="nav-sub">
+                <li class="list-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="list-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li class="list-item"><a href="asgmt.html" class="nav-link">ASGMT</a></li>
+                <li class="list-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+       
+    </div>
+
+
+
+        <!-- Info for the page -->
+
+        <div class="detel" style="font-size: 17px;">
+            <h1>Halit<span style="color: #F1C21B;">&nbsp;Statovci</span></h1>
+            <p>I created this simple web site using HTML5 and CSS, <br> as a task given by Professor <strong
+                    style="color: black;">Muzafer Shala</strong>&nbsp;at
+            <p style="color: red;">UNIVERSUM COLLEGE</p>
+            </p>
+        </div>
+
+
+
+        <!-- Me and the shape behind me -->
+
+       
+
+        <div class="fotoja">
+            
+            <img src="images/liti.png" class="liti" >
+        </div>
+      
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 17.8%;" id="footer">
+            <!-- Copyright -->
+            <div class="text-center p-4">
+                © 2021 - Universum College - All rights reserved - By: Halit Sta
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script>
+        const hamburger = document.querySelector(".ham");
+        const navsub = document.querySelector(".nav-sub");
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle("change")
+            navsub.classList.toggle("nav-change")
+        });  
+    </script>
+    
+</body>
+
+</html>
