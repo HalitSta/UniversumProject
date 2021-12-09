@@ -102,11 +102,9 @@ body{
 
 /* images */
 .liti{
-    width: 25%;
+    width: 37%;
     margin-left: 60%;
-    margin-top: -18%;
-    background-color: #F1C21B;
-    border-radius: 15%;
+    margin-top: -17%;
 }
 
 /* text style */
@@ -144,28 +142,18 @@ body{
 @media only screen and (max-width: 1024px){
     .detel{
         margin-left: 8%;
-        margin-top: 30%;
-    }
-    
-    .detel h1{
-        font-size: 2.6em;
-        color: #212121;
-    } 
-   
+        padding-top: 34%;
+    }   
    
     .liti{
-        margin-left: 20%;
-        margin-top: 10%;
-        width: 60%;
+        margin-left: 13%;
+        margin-top: 8%;
+        width: 80%;
         border-radius: 15%;
     }
   
     
-     .footer{
-       position: fixed;
-       margin-bottom: 10%;
-       
-   }  
+    
 }
 
 
